@@ -230,10 +230,10 @@ set statusline+=%(\ %{TlBranchName()}\ %) "| Git branch name    |  master
 set statusline+=%4*%(%{TlWhitespace()}\ %) "| Space and indent   | trail34
 set statusline+=%(%{TlSyntax()}\ %)%*      "| syntax error/warn  | E:1W:1
 set statusline+=%=                         "| Align to right     |
-set statusline+=%{TlFormat()}\ %4*%*      "| File format        | unix 
+set statusline+=%{TlFormat()}\ %4*%*       "| File format        | unix
 set statusline+=%(\ %{&fenc}\ %)           "| File encoding      | utf-8
-set statusline+=%4*%*%(\ %{&ft}\ %)       "| File type          |  python
-set statusline+=%3*%2*\ %l/%2c%4p%%\ %*   "| Line and column    | 69:77/ 90%
+set statusline+=%4*%*%(\ %{&ft}\ %)        "| File type          | python
+set statusline+=%3*%2*\ %l/%2c%4p%%\ %*    "| Line and column    | 69:77/ 90%
 " ------------------------------------------'--------------------'---------}}}
 " Non-active statusline {{{
 " ------------------------------------------+--------------------+------------
