@@ -57,7 +57,7 @@ function! s:tinyline(disable) " {{{
 		augroup! TinyLine
 	else
 		let &l:statusline = s:stl
-		call tinyline#define_highlights()
+		" call tinyline#define_highlights()
 		augroup TinyLine
 			autocmd!
 			" On save, clear cached filename, syntax, and whitespace info
@@ -66,7 +66,7 @@ function! s:tinyline(disable) " {{{
 
 			" Toggle buffer's inactive/active statusline
 			autocmd WinEnter,FileType,BufWinEnter * let &l:statusline = s:stl
-			autocmd ColorScheme * call tinyline#define_highlights()
+			" autocmd ColorScheme * call tinyline#define_highlights()
 			autocmd WinLeave * let &l:statusline = s:stl_nc
 
 			" For quickfix windows
