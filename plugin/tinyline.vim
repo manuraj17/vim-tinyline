@@ -214,7 +214,7 @@ endfunction
 " ------------------------------------------+--------------------+------------
 set statusline=                            "| Clear status line  |
 set statusline+=\ %7*%{&paste?'=':''}%*    "| Paste symbol       | =
-" set statusline+=%4*%{&ro?'':'#'}%*         "| Modifiable symbol  | #
+set statusline+=%4*%{&ro?'':'#'}%*         "| Modifiable symbol  | #
 set statusline+=%6*%{TlMode()}             "| Readonly symbol    | 
 set statusline+=%*%n                       "| Buffer number      | 3
 set statusline+=%6*%{TlModified()}%0*      "| Write symbol       | +
