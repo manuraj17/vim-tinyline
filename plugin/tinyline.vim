@@ -1,6 +1,6 @@
 
 " vim-tinyline - Tiny status line for Vim
-" Maintainer: Rafael Bodill <justrafi at gmail dot com>
+" Maintainer: Manu Raj <manu.elayath at gmail dot com>
 " Version:    0.8
 "-------------------------------------------------
 
